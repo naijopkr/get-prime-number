@@ -1,5 +1,3 @@
-
-
 def get_prime_number():
     prime_numbers = []
     candidate = 2
@@ -7,14 +5,14 @@ def get_prime_number():
         if candidate <= 3:
             prime_numbers.append(candidate)
             yield candidate
-        
+
         is_prime = True
         for prime_num in prime_numbers:
             if candidate % prime_num == 0:
                 is_prime = False
                 break
-        
-        
+
+
         if is_prime:
             prime_numbers.append(candidate)
             yield candidate
@@ -31,7 +29,7 @@ def main():
             print('Invalid number. Insert a valid number, please.')
         else:
             break
-    
+
     gen_prime_number = get_prime_number()
     prime_output = open('prime_output.txt', 'w+')
     for _ in range(input_range):
