@@ -2,6 +2,10 @@
 
 Python module that returns a generator of prime numbers.
 
+## Definition
+
+A prime number (or a prime) is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. (Wikipedia)
+
 ## Instructions
 
 1. Install the module
