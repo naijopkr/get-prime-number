@@ -11,7 +11,7 @@ $ pip install get-prime-number
 
 2. Import the function
 ```
-from get-prime-number import get_prime_number
+from get_prime_number import get_prime_number
 ```
 
 3. Create the generator
